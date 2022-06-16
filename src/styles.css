@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+
+ul.faq-list {
+    list-style: unset;
+}
+
+ul.faq-list li {
+    padding-bottom: 10px;
+}
+
+ul.language-menu,
+ul.language-menu.show {
+    right: 0 !important;
+    left: auto !important;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.language-menu li:first-child {
+    margin-right: 0;
+}
+
+ul.language-menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+ul.language-menu li > a {
+    text-align: center;
+}
+
+ul.language-menu li.active > a {
+    box-shadow: 0px 0px 1px 2px rgba(152, 51, 134, 0.9);
+    filter: drop-shadow(0 0px 20px rgba(152, 51, 134, 0.6));
+    background: linear-gradient(to bottom, #e673cf 10%, #9a368a 90%);
+    text-shadow: 5px 4px 0px #943184;
+}
+
+#cssmenu ul.language-menu li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#cssmenu ul.language-menu li.active > a {
+    color: #f7ad07 !important;
+    box-shadow: unset;
+    filter: unset;
+    background: unset;
+    text-shadow: unset;
+}

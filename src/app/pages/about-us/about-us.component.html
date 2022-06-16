@@ -1,0 +1,166 @@
+<!-- Banner -->
+<section class="about-page back-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-video">
+                    <img src="assets/images/about-video-image.jpg" class="img-fluid" alt="img">
+                    <div class="youtube_video">
+                        <a class="bla-1 play-video-button" href="https://www.youtube.com/watch?v=yRyC7WJ3YIk">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 contact-about">
+                <div class="heading">
+                    <h2>{{ "_ABOUT_US" | translate }}</h2>
+                    <img src="assets/images/heading-border-effect.png" class="img-fluid" alt="effect">
+                </div>
+                <p class="mb30" [innerHtml]="'_ABOUT_US_DESC' | translate"></p>
+
+                <div class="casino-btn">
+                    <a href="#">{{ "_JOIN_US_NOW" | translate }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner End -->
+
+<!-- FAQ Start -->
+<section id="faq" class="faq back-dark section">
+    <div class="container">
+
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6">
+                <div class="heading">
+                    <h2>{{ "_FAQ.LONG" | translate }}</h2>
+                    <img src="assets/images/heading-border-effect.png" class="img-fluid" alt="effect">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-9">
+
+                <ng-container *ngFor="let group of faqGroups; let first = first; let last = last">
+
+                    <div class="row">
+                        <div *ngFor="let faq of group" class="col-md-6">
+                            <div class="faq-inner">
+                                <h3>{{ faq.index | number: "2.0" }}. {{ faq.question | translate }}</h3>
+                                <p [innerHtml]="faq.answer | translate"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div *ngIf="first" class="row faq-border h-100">
+                        <img src="assets/images/faq-border.png" alt="">
+                    </div>
+
+                    <div *ngIf="!last" class="row faq-pad justify-content-center text-center">
+                        <img src="assets/images/faq-border-2.png" class="img-fluid" alt="effect">
+                    </div>
+
+                </ng-container>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="faq-form">
+
+                    <form>
+                        <div class="form-group col-sm-12">
+                            <input type="text" class="form-control" name="name"
+                                placeholder="{{ '_ENTER_YOUR_NAME' | translate }}">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <input type="text" class="form-control" name="email"
+                                placeholder="{{ '_ENTER_YOUR_EMAIL' | translate }}">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea name="meassage" placeholder="{{ '_ENTER_COMMENTS' | translate }}"></textarea>
+                        </div>
+                        <div class="casino-btn col-sm-12">
+                            <a href="#" class="faq-btn">{{ '_SEND' | translate }}</a>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="faq-inner">
+                            <h3>01. How do I create Casine Account ?</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="faq-inner f-padding">
+                            <h3>01. How do I create Casine Account ?</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row faq-border">
+                    <img src="assets/images/faq-border.png" alt="">
+                </div>
+                <div class="row faq-pad justify-content-center text-center">
+                    <img src="assets/images/faq-border-2.png" class="img-fluid" alt="effect">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="faq-inner">
+                            <h3>01. How do I create Casine Account ?</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit
+                                amet.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="faq-inner f-padding">
+                            <h3>01. How do I create Casine Account ?</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit
+                                amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="faq-form">
+
+                    <form>
+
+                        <div class="form-group col-sm-12">
+                            <input type="text" class="form-control" name="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <input type="text" class="form-control" name="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-group col-sm-12">
+
+                            <textarea name="meassage" placeholder="Enter Comments"></textarea>
+
+                        </div>
+                        <div class="casino-btn col-sm-12">
+                            <a href="#" class="faq-btn">send</a>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div> -->
+    </div>
+</section>
+<!-- FAQ End -->

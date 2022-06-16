@@ -1,0 +1,22 @@
+<div class="port_img">
+    <ng-container *ngIf="game">
+        <img *ngIf="game.backgroundImage" [src]="game.backgroundImage" class="img-fluid" alt="">
+        <img *ngIf="!game.backgroundImage" src="assets/images/related-game-image-1.jpg" class="img-fluid" alt="">
+    </ng-container>
+
+    <div class="overlay1">
+        <div class="overlay-text">
+            <div class="port-text">
+                <div class="casino-btn">
+                    <a (click)="clickPlayNow()" class="btn-4 yellow-btn">{{ "_PLAY_NOW" | translate }}</a>
+                </div>
+                <div *ngIf="game" class="port-text-btm">
+                    <h3>{{ game.title | translate }}</h3>
+                    <p *ngIf="game.category">
+                        {{ "_CATEGORY" | translate }}: {{ game.category.title | translate }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

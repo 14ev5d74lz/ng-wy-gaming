@@ -1,3 +1,67 @@
 {
-    "ONLINE_CASINO": "Hello World"
+    "_ONLINE_CASINO": "Online Casino",
+    "_SLOGAN": "Come on",
+    "_SLOGAN_DESC": "Find all fun games here.",
+    "_ABOUT_COMPANY": "About {{ companyName }}",
+    "_COMPANY_DESC": "Wy Gaming established in 2017. Well known company.",
+    "_COMPANY_DESC_TWO": "Accumulated more than 100,000 players.",
+    "_HELP_AND_SUPPORT": "Help & Support",
+    "_PLAY_NOW": "Play now",
+    "_NO_GAMES_FOUND": "No games found",
+    "_GAMES_CATEGORIES": {
+        "ALL": "All",
+        "SLOTS": "Slots",
+        "ROULETTE": "Roulette",
+        "BLACK_JACK": "Black Jack",
+        "POKER_GAMES": "Poker Games",
+        "OTHER": "Other"
+    },
+    "_GAMES": "Games",
+    "_GAME_ITEMS": {
+        "GAME_ONE": "Game One",
+        "GAME_TWO": "Game Two",
+        "GAME_THREE": "Game Three",
+        "GAME_FOUR": "Game Four"
+    },
+    "_CATEGORY": "Category",
+    "_BROWSE_ALL": "Browse all",
+    "_HOME": "Home",
+    "_ABOUT_US": "About us",
+    "_ABOUT_US_DESC": "We are Wy Gaming.<br />Thank you.",
+    "_FAQ": {
+        "SHORT": "FAQ",
+        "LONG": "Frequently Ask Questions"
+    },
+    "_CONTACT_US": "Contact Us",
+    "_OUR_GAMES": "Our games",
+    "_FEATURED_GAMES": "Featured games",
+    "_COPYRIGHT_TEXT": "Copyright 2022. All rights reserved by {{ companyName }}",
+    "_SEND": "Send",
+    "_ENTER_YOUR_NAME": "Enter your name",
+    "_ENTER_YOUR_EMAIL": "Enter your email",
+    "_ENTER_COMMENTS": "Enter Comments",
+    "_SUBSCRIBE_FOR_OFFERS": "Subscribe for offers",
+    "_PAYMENT_METHODS": "Payment methods",
+    "_PAYMENT_METHOD_ITEMS": {
+        "VISA": "Visa",
+        "MASTER_CARD": "Master Card",
+        "PAYPAL": "Paypal"
+    },
+    "_GET_THIS_APP": "Get this App",
+    "_IOS": "iOS",
+    "_ANDROID": "Android",
+    "_JOIN_US_NOW": "Join us now",
+    "_FAQ_ITEMS": {
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_TO_PLAY_ANS": "<ul class=\"faq-list\"><li>Click \"Games\" in the website header.</li><li>Browser and choose the desired game.</li><li>Have fun and good luck playing your games!</li></ul>",
+        "HOW_MANY_AGE_IS_REQUIRED": "How many age is required?",
+        "HOW_MANY_AGE_IS_REQUIRED_ANS": "Customers must be at least 18 years old and above and agree to abide by the terms and conditions imposed.",
+        "WHAT_IS_SUPPORTED_CURRENCIES": "What is the supported currencies?",
+        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "Currently only <span class=\"font-weight-bold\">MYR-Ringgit Malaysia</span> is supported."
+    },
+    "_LANGUAGE": "Language",
+    "_LANGUAGES": {
+        "EN": "English",
+        "ZH": "简体中文"
+    }
 }

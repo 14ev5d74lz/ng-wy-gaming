@@ -1,0 +1,26 @@
+.payments ul li img {
+    max-width: 59px;
+}
+
+.payments ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .payments ul li {
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .payments ul li {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .payments ul li {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+}

@@ -38,7 +38,7 @@ Table of Content
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800');
+@import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");
 * {
     margin: 0;
     padding: 0;
@@ -98,7 +98,7 @@ body {
 
 #loading,
 .load-circle:before {
-    bottom: 0
+    bottom: 0;
 }
 
 .contact-page,
@@ -114,7 +114,6 @@ body {
 .contact-us {
     overflow: hidden;
 }
-
 
 /*
 ==========================================
@@ -237,9 +236,7 @@ body {
     }
 }
 
-
 /* == main css start from now == */
-
 
 /* ============================
             common 
@@ -267,7 +264,7 @@ body {
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .section {
@@ -284,7 +281,7 @@ p {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .back-light {
@@ -321,7 +318,7 @@ p {
     text-align: center;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #fefefe;
+    color: #fefefe !important;
     font-weight: 400;
     font-family: "Anton";
     padding: 13px 30px;
@@ -332,10 +329,11 @@ p {
     -ms-transition: all ease 0.9s;
     -o-transition: all ease 0.9s;
     transition: all ease 0.9s;
-    text-shadow: 5px 4px 0px rgba(0, 0, 0, .1);
+    text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.1);
     background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
     filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
     box-shadow: 0px 0px 2px 1px rgba(247, 172, 4, 0.8);
+    cursor: pointer;
 }
 
 .casino-btn a:hover {
@@ -355,8 +353,9 @@ p {
     position: relative;
     line-height: 24px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -372,8 +371,9 @@ p {
     position: relative;
     line-height: 24px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -416,7 +416,6 @@ p {
     cursor: auto;
 }
 
-
 /* ===============================
         Header Part css
 ==================================*/
@@ -424,7 +423,7 @@ p {
 .navbar {
     position: fixed;
     width: 100%;
-    transition: all ease .9s;
+    transition: all ease 0.9s;
     background: transparent;
 }
 
@@ -442,15 +441,15 @@ p {
     background: -o-linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
     background: -moz-linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
     background: linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
-    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, .3);
-    transition: all ease .9s;
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.9s;
 }
 
 .header-nav .navbar-brand {
     color: #fff;
     font-weight: 800;
     position: relative;
-    font-size: 23px
+    font-size: 23px;
 }
 
 .header-nav .navbar-brand img {
@@ -464,7 +463,7 @@ p {
     position: absolute;
     bottom: 12px;
     right: -9px;
-    float: left
+    float: left;
 }
 
 .header-nav .navbar-nav .nav-item {
@@ -543,18 +542,18 @@ p {
     border-radius: 4px;
 }
 
-.navbar-toggler span+span {
+.navbar-toggler span + span {
     margin-top: 4px;
     width: 18px;
 }
 
-.navbar-toggler span+span+span {
+.navbar-toggler span + span + span {
     width: 10px;
 }
 
 .dropdown-toggle::after {
     margin-left: 4px !important;
-    vertical-align: .05em !important;
+    vertical-align: 0.05em !important;
 }
 
 .login_menu li {
@@ -566,7 +565,6 @@ p {
     padding: 14px 0;
 }
 
-
 /* dropdown menu css */
 
 .dropdown-menu {
@@ -575,26 +573,27 @@ p {
     top: 64px;
     background: linear-gradient(to top, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
     min-width: 210px;
-    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.2);
     border-radius: 0;
     border: none;
+    transition: all ease 0.4s;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
 }
 
-.nav .open>a,
-.nav .open>a:focus,
-.nav .open>a:hover {
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
     background: none;
 }
 
-.dropdown-menu>li {
+.dropdown-menu > li {
     padding: 10px 10px;
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
     font-size: 18px;
     position: relative;
     line-height: 24px;
@@ -602,19 +601,19 @@ p {
     color: #fefefe;
 }
 
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li:hover a {
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li:hover a {
     background: none;
     color: #e8a004 !important;
     font-weight: 600;
-    transition: all .4s;
+    transition: all 0.4s;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
     color: #fff !important;
     padding: 10px 18px !important;
     text-align: left;
@@ -630,20 +629,20 @@ p {
     transform: translateY(-100%);
 }
 
-.custom_nav ul>li>a:focus:after,
-.custom_nav ul>li.active>a:after,
-.custom_nav ul>li:hover>a:after {
+.custom_nav ul > li > a:focus:after,
+.custom_nav ul > li.active > a:after,
+.custom_nav ul > li:hover > a:after {
     opacity: 1;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .dropdown-menu {
         display: block;
         visibility: hidden;
         opacity: 0;
         top: 110%;
     }
-    .custom_nav ul>li:hover>.dropdown-menu {
+    .custom_nav ul > li:hover > .dropdown-menu {
         opacity: 1;
         visibility: visible;
         top: 145%;
@@ -655,33 +654,31 @@ p {
     }
 }
 
-
 /* === nav-toggle === */
 
 ul.tog-nav li a {
     opacity: 0 !important;
 }
 
-.full_nav .nav.tog-nav>li {
+.full_nav .nav.tog-nav > li {
     visibility: hidden;
 }
 
-.full_nav .nav>li:last-child {
+.full_nav .nav > li:last-child {
     visibility: visible;
 }
 
-.full_nav .nav>li {
+.full_nav .nav > li {
     visibility: visible;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
     display: block;
 }
 
 .navbar-toggle {
     display: none;
 }
-
 
 /* == menu css start == */
 
@@ -694,7 +691,7 @@ nav.navbar .container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .menuVisible.navbar-header {
@@ -709,12 +706,12 @@ nav.navbar .container {
     margin-left: 10px !important;
 }
 
-.full_nav .nav>li {
+.full_nav .nav > li {
     margin: 0 4px;
     padding: 10px 0;
 }
 
-.full_nav .nav>li>a {
+.full_nav .nav > li > a {
     font-size: 18px;
     position: relative;
     line-height: 24px;
@@ -728,8 +725,8 @@ nav.navbar .container {
     text-transform: capitalize;
 }
 
-.full_nav .nav>li a.active,
-.full_nav .nav>li:hover a {
+.full_nav .nav > li a.active,
+.full_nav .nav > li:hover a {
     color: #e8a004;
 }
 
@@ -760,14 +757,14 @@ nav.navbar .container {
     -o-transition: all 0.5s ease;
 }
 
-.full_nav .nav>li:last-child .fa-times {
+.full_nav .nav > li:last-child .fa-times {
     position: absolute;
     top: 11px;
     z-index: -1;
     font-size: 22px;
 }
 
-.full_nav .nav>li:last-child {
+.full_nav .nav > li:last-child {
     cursor: pointer;
     position: absolute;
     right: 285px;
@@ -797,7 +794,6 @@ nav.navbar .container {
 .menu-inner i.fa-align-right {
     opacity: 0;
 }
-
 
 /* ============================= 
        Banner Css 
@@ -829,6 +825,7 @@ nav.navbar .container {
     font-weight: 400;
     font-family: "Anton";
     background: -webkit-linear-gradient(#fcb503 46%, #e5881b 54%, #fcb11a);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 99;
@@ -836,7 +833,7 @@ nav.navbar .container {
 
 .title:before {
     position: absolute;
-    content: 'Online Casino';
+    content: "Online Casino";
     text-shadow: 21px 13px 2px #2c0b49;
     filter: drop-shadow(0 0 40px #68248c);
     left: 0;
@@ -862,7 +859,6 @@ nav.navbar .container {
     text-transform: capitalize;
     padding-bottom: 30px;
 }
-
 
 /*=====================================
  Counter
@@ -919,11 +915,9 @@ nav.navbar .container {
     cursor: auto;
 }
 
-
 /* =====================================
  Counter end 
 ======================================= */
-
 
 /* ===========================================================
     BE IN CONTROL
@@ -1001,7 +995,7 @@ nav.navbar .container {
 
 .control-pad:after {
     position: absolute;
-    content: '';
+    content: "";
     border-bottom: 2px solid #290a59;
     width: 3600px;
     left: 50%;
@@ -1011,7 +1005,7 @@ nav.navbar .container {
 
 .control-pad:before {
     position: absolute;
-    content: '';
+    content: "";
     border-bottom: 2px solid #000;
     width: 3600px;
     left: 50%;
@@ -1029,12 +1023,14 @@ nav.navbar .container {
 
 .control-img i {
     background: -webkit-linear-gradient(#e26aca 0%, #943285 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .control-img:hover i {
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all ease 0.4s;
@@ -1043,7 +1039,6 @@ nav.navbar .container {
     -ms-transition: all ease 0.4s;
     -o-transition: all ease 0.4s;
 }
-
 
 /* ===========================================================
     HOW TO START
@@ -1092,12 +1087,14 @@ nav.navbar .container {
 
 .start-img i {
     background: -webkit-linear-gradient(#e26aca 0%, #943285 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .start-img:hover i {
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all ease 0.4s;
@@ -1135,11 +1132,9 @@ nav.navbar .container {
     cursor: auto;
 }
 
-
 /*=====================================
  End of Counter  part css
 =======================================*/
-
 
 /*=====================================
     Related other games Start
@@ -1165,7 +1160,7 @@ nav.navbar .container {
     left: -10%;
     width: 120%;
     height: 120%;
-    content: '';
+    content: "";
     -webkit-transition: -webkit-transform 0.6s;
     transition: -webkit-transform 0.6s;
     -o-transition: transform 0.6s;
@@ -1192,10 +1187,10 @@ nav.navbar .container {
 
 .project-img .nav-menu {
     /*    margin: 0 3px;*/
-    -webkit-transition: ease all .5s;
-    -moz-transition: ease all .5s;
-    -o-transition: ease all .5s;
-    transition: ease all .5s;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    -o-transition: ease all 0.5s;
+    transition: ease all 0.5s;
     display: inline-block;
     padding: 10px 20px;
     background: transparent;
@@ -1295,19 +1290,19 @@ nav.navbar .container {
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: all .4s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 .port_img {
     position: relative;
     overflow: hidden;
-    transition: all .4s ease-in;
+    transition: all 0.4s ease-in;
     margin-bottom: 30px;
 }
 
 .port_img img {
     width: 100%;
-    transition: all .4s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 .port_img:hover .overlay1 {
@@ -1327,11 +1322,9 @@ nav.navbar .container {
     padding-bottom: 60px;
 }
 
-
 /*=====================================
  End Related other games Css
 =======================================*/
-
 
 /*=====================================
     Start of Unlock Free spin part css
@@ -1357,11 +1350,9 @@ nav.navbar .container {
     line-height: 24px;
 }
 
-
 /*=====================================
     End of Unlock Free spin  part css
 =======================================*/
-
 
 /*========================================
             Casino Jackpots Start 
@@ -1409,7 +1400,7 @@ nav.navbar .container {
     color: #fffeff;
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .touna_head_left .card-header {
@@ -1429,7 +1420,7 @@ nav.navbar .container {
     color: #fffeff;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     padding-bottom: 25px;
 }
 
@@ -1465,7 +1456,7 @@ nav.navbar .container {
 
 .jack-border:after {
     position: absolute;
-    content: '';
+    content: "";
     border-bottom: 2px solid #290a59;
     width: 350px;
     left: 50%;
@@ -1475,7 +1466,7 @@ nav.navbar .container {
 
 .jack-border:before {
     position: absolute;
-    content: '';
+    content: "";
     border-bottom: 2px solid #000;
     width: 350px;
     left: 50%;
@@ -1500,7 +1491,7 @@ nav.navbar .container {
     color: #fff;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .counter-jack {
@@ -1519,7 +1510,7 @@ nav.navbar .container {
 .running-img:before {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9)30%, rgba(0, 0, 0, 0)70%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0) 70%);
     top: -30px;
     left: 0;
     height: 100%;
@@ -1541,7 +1532,7 @@ nav.navbar .container {
     position: relative;
     line-height: 24px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     text-transform: uppercase;
     z-index: 0;
     padding-top: 5px;
@@ -1554,7 +1545,7 @@ nav.navbar .container {
     position: relative;
     line-height: 24px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     z-index: 0;
     padding-bottom: 35px;
@@ -1565,7 +1556,7 @@ nav.navbar .container {
 }
 
 .running-img:hover::before {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9)30%, rgba(0, 0, 0, 0.9)70%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.9) 70%);
     -webkit-transition: ease all 1s;
     -moz-transition: ease all 1s;
     -o-transition: ease all 1s;
@@ -1583,6 +1574,7 @@ nav.navbar .container {
 
 .running-img:hover .run-txt h4 {
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transition: ease all 1s;
@@ -1608,7 +1600,7 @@ nav.navbar .container {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .coundown {
@@ -1627,19 +1619,20 @@ nav.navbar .container {
 
 .coundown span {
     background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 80%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 78px;
     font-weight: 600;
     line-height: 24px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .coundown p {
     color: #fcb100;
     font-size: 32px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .count-dot {
@@ -1665,7 +1658,6 @@ nav.navbar .container {
     height: 64px;
     width: 100%;
 }
-
 
 /*=====================================
     Start of Faq  part css
@@ -1733,7 +1725,7 @@ nav.navbar .container {
     background-color: transparent;
     border-color: #fff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .faq .form-group textarea {
@@ -1758,11 +1750,9 @@ nav.navbar .container {
     width: 100%;
 }
 
-
 /*=====================================
     End of Faq  part css
 =======================================*/
-
 
 /*=====================================
     Start of contact  part css
@@ -1786,8 +1776,9 @@ nav.navbar .container {
     position: relative;
     line-height: 24px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     background: -webkit-linear-gradient(#ffd370 55%, #f7ad07 68%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -1798,7 +1789,6 @@ nav.navbar .container {
     letter-spacing: -1px;
     padding-top: 65px;
 }
-
 
 /*
 
@@ -1811,7 +1801,6 @@ nav.navbar .container {
     animation: scan 8s infinite;
 }
 */
-
 
 /*
 .contact-about .border-effect2 {
@@ -2018,7 +2007,7 @@ nav.navbar .container {
     background-color: transparent;
     border-color: #fff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .subscribe input {
@@ -2072,11 +2061,9 @@ nav.navbar .container {
     padding-bottom: 20px;
 }
 
-
 /*=====================================
     End of contact  part css
 =======================================*/
-
 
 /* ====================================
           About Page css
@@ -2096,7 +2083,7 @@ nav.navbar .container {
 }
 
 .about-video:before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 0;
     width: 100%;
@@ -2111,8 +2098,8 @@ nav.navbar .container {
 
 .youtube_video {
     position: absolute;
-    top: 41%;
-    left: 46%;
+    top: 40%;
+    left: 42%;
     transform: translate(-50%, -50%);
     z-index: 99;
 }
@@ -2130,7 +2117,7 @@ nav.navbar .container {
     line-height: 80px;
     animation: bulb 4s infinite;
     font-size: 25px;
-    text-shadow: 5px 3px 0px rgba(0, 0, 0, .1);
+    text-shadow: 5px 3px 0px rgba(0, 0, 0, 0.1);
     padding: 0 34px;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -2153,7 +2140,6 @@ nav.navbar .container {
 .about-page .casino-btn {
     margin-top: 30px;
 }
-
 
 /* ===============================
            error page
@@ -2187,6 +2173,7 @@ nav.navbar .container {
     font-family: "Anton", sans-serif;
     line-height: 120px;
     background: -webkit-linear-gradient(#fcb503 43%, #e5881b 57%, #fcb11a);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -2194,7 +2181,7 @@ nav.navbar .container {
 }
 
 .error-txt:before {
-    content: 'Not Found';
+    content: "Not Found";
     font-size: 34px;
     font-family: "Anton", sans-serif;
     line-height: 34px;
@@ -2221,7 +2208,6 @@ nav.navbar .container {
     filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0));
 }
 
-
 /* ==========================================
           contact us page 
 ===============================================*/
@@ -2236,7 +2222,7 @@ nav.navbar .container {
 }
 
 .contact-page:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     height: 100%;
@@ -2268,7 +2254,7 @@ nav.navbar .container {
     background-color: transparent;
     border-color: #fff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .contact-page .form-group textarea {
@@ -2368,14 +2354,12 @@ nav.navbar .container {
     margin-bottom: 60px;
 }
 
-
 /* */
 
 .award-imgfixed {
     position: sticky !important;
     top: 100px;
 }
-
 
 /* ===============================
             animation
@@ -2447,16 +2431,13 @@ nav.navbar .container {
     }
 }
 
-
 /* ======== Sub Header css ======= */
-
 
 /* ======== hidden==========*/
 
 .hidden {
     display: none;
 }
-
 
 /* === BACK TO TOP CSS == */
 
@@ -2475,12 +2456,12 @@ nav.navbar .container {
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     display: none;
-    -webkit-transition: ease all .5s;
-    -moz-transition: ease all .5s;
-    -o-transition: ease all .5s;
-    transition: ease all .5s;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    -o-transition: ease all 0.5s;
+    transition: ease all 0.5s;
     z-index: 999;
     padding: 12px;
     text-align: center;
@@ -2490,10 +2471,10 @@ nav.navbar .container {
 #back-top-btn i {
     position: relative;
     color: #fff;
-    -webkit-transition: ease all .5s;
-    -moz-transition: ease all .5s;
-    -o-transition: ease all .5s;
-    transition: ease all .5s;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    -o-transition: ease all 0.5s;
+    transition: ease all 0.5s;
 }
 
 #back-top-btn:hover {
@@ -2501,13 +2482,12 @@ nav.navbar .container {
     background: -o-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
     background: -moz-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
     background: linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
-    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
-    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
-    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.3);
     filter: drop-shadow(0 0px 10px rgba(223, 103, 198, 0.3));
 }
-
 
 /* =================================================
                  Animation

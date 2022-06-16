@@ -1,0 +1,67 @@
+{
+    "_ONLINE_CASINO": "线上赌场",
+    "_SLOGAN": "快来！",
+    "_SLOGAN_DESC": "最好玩的游戏尽在这里。",
+    "_ABOUT_COMPANY": "关于{{ companyName }}",
+    "_COMPANY_DESC": "Wy Gaming 成立于 2017. 知名公司.",
+    "_COMPANY_DESC_TWO": "集结超过100,000用户",
+    "_HELP_AND_SUPPORT": "帮助与支持",
+    "_PLAY_NOW": "马上游玩",
+    "_NO_GAMES_FOUND": "未发现游戏",
+    "_GAMES_CATEGORIES": {
+        "ALL": "全部",
+        "SLOTS": "转盘",
+        "ROULETTE": "轮盘",
+        "BLACK_JACK": "黑杰克",
+        "POKER_GAMES": "扑克游戏",
+        "OTHER": "其他"
+    },
+    "_GAMES": "游戏",
+    "_GAME_ITEMS": {
+        "GAME_ONE": "游戏一",
+        "GAME_TWO": "游戏二",
+        "GAME_THREE": "游戏三",
+        "GAME_FOUR": "游戏四"
+    },
+    "_CATEGORY": "类别",
+    "_BROWSE_ALL": "浏览所有",
+    "_HOME": "首页",
+    "_ABOUT_US": "关于我们",
+    "_ABOUT_US_DESC": "我们是 Wy Gaming.<br />谢谢.",
+    "_FAQ": {
+        "SHORT": "常见问题",
+        "LONG": "常见问题"
+    },
+    "_CONTACT_US": "联系我们",
+    "_OUR_GAMES": "我们的游戏",
+    "_FEATURED_GAMES": "精选游戏",
+    "_COPYRIGHT_TEXT": "2022 版权所有. {{ companyName }}保留所有权利",
+    "_SEND": "发送",
+    "_ENTER_YOUR_NAME": "输入您的名字",
+    "_ENTER_YOUR_EMAIL": "输入您的电子邮件",
+    "_ENTER_COMMENTS": "输入评论",
+    "_SUBSCRIBE_FOR_OFFERS": "订阅优惠",
+    "_PAYMENT_METHODS": "付款方式",
+    "_PAYMENT_METHOD_ITEMS": {
+        "VISA": "Visa",
+        "MASTER_CARD": "Master Card",
+        "PAYPAL": "Paypal"
+    },
+    "_GET_THIS_APP": "获取此应用",
+    "_IOS": "苹果",
+    "_ANDROID": "安卓",
+    "_JOIN_US_NOW": "马上加入我们",
+    "_FAQ_ITEMS": {
+        "HOW_TO_PLAY": "怎么玩游戏？",
+        "HOW_TO_PLAY_ANS": "<ul class=\"faq-list\"><li>点击网站标题中的\"游戏\"。</li><li>浏览并选择喜欢的游戏。</li><li>玩得开心，祝你好运！</li></ul>",
+        "HOW_MANY_AGE_IS_REQUIRED": "需要多少岁才能游玩？",
+        "HOW_MANY_AGE_IS_REQUIRED_ANS": "客户必须年满 18 岁并同意遵守所施加的条款和条件。",
+        "WHAT_IS_SUPPORTED_CURRENCIES": "支持的货币是什么？",
+        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "目前只支持<span class=\"font-weight-bold\">MYR-马币</span>。"
+    },
+    "_LANGUAGE": "语言",
+    "_LANGUAGES": {
+        "EN": "英语",
+        "ZH": "简体中文"
+    }
+}
