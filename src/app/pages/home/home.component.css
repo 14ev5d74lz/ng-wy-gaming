@@ -1,12 +1,8 @@
-:host ::ng-deep games-section .container {
-    margin-bottom: 60px;
-}
-
-.banner_text {
+/* .banner_text {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 20px 40px;
-}
+} */
 
 .banner_text > h3 {
     padding-top: 10px;

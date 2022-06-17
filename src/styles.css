@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+@media only screen and (max-width: 767px) {
+    .main_page div.banner-center {
+        width: 100%;
+    }
+}
+
 ul.faq-list {
     list-style: unset;
+    padding-left: 10px;
 }
 
 ul.faq-list li {
@@ -50,4 +57,40 @@ ul.language-menu li.active > a {
     filter: unset;
     background: unset;
     text-shadow: unset;
+}
+
+.page-not-found {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.page-not-found div.code {
+    text-align: center;
+}
+
+.page-not-found div.code > h1 {
+    font-size: 185px;
+    background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-not-found .heading > h2 {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.page-not-found .heading > p {
+    font-family: "Anton", sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .page-not-found div.text {
+        text-align: center;
+        padding-top: 20px;
+    }
 }

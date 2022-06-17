@@ -13,7 +13,6 @@ export class FooterComponent implements OnInit {
   public companyName = environment.companyName;
   public companyEmail = environment.companyEmail;
   public companyPhone = environment.companyPhone;
-  public companyWorkingHour = environment.companyWorkingHour;
 
   public paymentMethods: PaymentMethod[] | undefined;
 

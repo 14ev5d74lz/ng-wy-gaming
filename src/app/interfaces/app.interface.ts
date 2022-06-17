@@ -26,6 +26,20 @@ export interface Language {
     selected: boolean
 }
 
+export enum FragmentSection {
+    BE_IN_CONTROL = "BE_IN_CONTROL",
+    HOW_TO_START = "HOW_TO_START"
+}
+
+export interface Fragment {
+    section: FragmentSection,
+    sequence: number,
+    title: string,
+    description: string,
+    icon: string,
+    index?: number
+}
+
 export class AppConstant {
     public static get NAV_ITEMS(): NavItem[] {
         return [
@@ -60,16 +74,21 @@ export class AppConstant {
         return [
             {
                 sequence: 1,
+                question: "_FAQ_ITEMS.WHY_ONLINE_CASINO",
+                answer: "_FAQ_ITEMS.WHY_ONLINE_CASINO_ANS"
+            },
+            {
+                sequence: 2,
                 question: "_FAQ_ITEMS.HOW_TO_PLAY",
                 answer: "_FAQ_ITEMS.HOW_TO_PLAY_ANS"
             },
             {
-                sequence: 2,
+                sequence: 3,
                 question: "_FAQ_ITEMS.HOW_MANY_AGE_IS_REQUIRED",
                 answer: "_FAQ_ITEMS.HOW_MANY_AGE_IS_REQUIRED_ANS"
             },
             {
-                sequence: 3,
+                sequence: 4,
                 question: "_FAQ_ITEMS.WHAT_IS_SUPPORTED_CURRENCIES",
                 answer: "_FAQ_ITEMS.WHAT_IS_SUPPORTED_CURRENCIES_ANS"
             }
@@ -87,11 +106,6 @@ export class AppConstant {
                 code: "MASTER_CARD",
                 title: "_PAYMENT_METHODS.MASTER_CARD",
                 image: "assets/images/payment/master-card.png"
-            },
-            {
-                code: "PAYPAL",
-                title: "_PAYMENT_METHODS.PAYPAL",
-                image: "assets/images/payment/paypal.png"
             }
         ]
     }
@@ -107,6 +121,60 @@ export class AppConstant {
                 code: "zh",
                 title: "_LANGUAGES.ZH",
                 selected: false
+            }
+        ]
+    }
+
+    public static get FRAGMENTS(): Fragment[] {
+        return [
+            {
+                section: FragmentSection.BE_IN_CONTROL,
+                sequence: 1,
+                title: "_FRAGMENT_SECTION.ACCESS_ANYTIME_ANYWHERE",
+                description: "_FRAGMENT_SECTION.ACCESS_ANYTIME_ANYWHERE_DESC",
+                icon: "flaticon-bill"
+            },
+            {
+                section: FragmentSection.BE_IN_CONTROL,
+                sequence: 2,
+                title: "_FRAGMENT_SECTION.ENDLESS_GAME_OPTIONS",
+                description: "_FRAGMENT_SECTION.ENDLESS_GAME_OPTIONS_DESC",
+                icon: "flaticon-money"
+            },
+            {
+                section: FragmentSection.BE_IN_CONTROL,
+                sequence: 3,
+                title: "_FRAGMENT_SECTION.QUICK_SYSTEM",
+                description: "_FRAGMENT_SECTION.QUICK_SYSTEM_DESC",
+                icon: "flaticon-loss"
+            },
+            {
+                section: FragmentSection.BE_IN_CONTROL,
+                sequence: 4,
+                title: "_FRAGMENT_SECTION.HIGHEST_REBATE",
+                description: "_FRAGMENT_SECTION.HIGHEST_REBATE_DESC",
+                icon: "flaticon-wallet-1"
+            },
+            {
+                section: FragmentSection.HOW_TO_START,
+                sequence: 1,
+                title: "_FRAGMENT_SECTION.DOWNLOAD_AND_SIGNUP",
+                description: "_FRAGMENT_SECTION.DOWNLOAD_AND_SIGNUP_DESC",
+                icon: "flaticon-bill"
+            },
+            {
+                section: FragmentSection.HOW_TO_START,
+                sequence: 2,
+                title: "_FRAGMENT_SECTION.DEPOSIT_CASH",
+                description: "_FRAGMENT_SECTION.DEPOSIT_CASH_DESC",
+                icon: "flaticon-wallet"
+            },
+            {
+                section: FragmentSection.HOW_TO_START,
+                sequence: 3,
+                title: "_FRAGMENT_SECTION.PLAY_AND_ENJOY",
+                description: "_FRAGMENT_SECTION.PLAY_AND_ENJOY_DESC",
+                icon: "flaticon-casino"
             }
         ]
     }

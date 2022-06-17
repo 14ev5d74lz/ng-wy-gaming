@@ -1,10 +1,10 @@
 {
     "_ONLINE_CASINO": "Online Casino",
-    "_SLOGAN": "Come on",
-    "_SLOGAN_DESC": "Find all fun games here.",
+    "_SLOGAN": "",
+    "_SLOGAN_DESC": "All the best casino games, right at your fingertips!",
     "_ABOUT_COMPANY": "About {{ companyName }}",
-    "_COMPANY_DESC": "Wy Gaming established in 2017. Well known company.",
-    "_COMPANY_DESC_TWO": "Accumulated more than 100,000 players.",
+    "_COMPANY_DESC": "Dedicated to providing the best gaming experience possible.",
+    "_COMPANY_DESC_TWO": "",
     "_HELP_AND_SUPPORT": "Help & Support",
     "_PLAY_NOW": "Play now",
     "_NO_GAMES_FOUND": "No games found",
@@ -18,19 +18,26 @@
     },
     "_GAMES": "Games",
     "_GAME_ITEMS": {
-        "GAME_ONE": "Game One",
-        "GAME_TWO": "Game Two",
-        "GAME_THREE": "Game Three",
-        "GAME_FOUR": "Game Four"
+        
     },
     "_CATEGORY": "Category",
     "_BROWSE_ALL": "Browse all",
     "_HOME": "Home",
     "_ABOUT_US": "About us",
-    "_ABOUT_US_DESC": "We are Wy Gaming.<br />Thank you.",
+    "_ABOUT_US_DESC": "Our global talents contribute to have the same passion for delivering the very best in gaming. Our online casino games are some of our most popular games and are loved by players worldwide. Online casinos never close. So you can always play any time of the day or week, and there's no need to dress up for the occasion.",
     "_FAQ": {
         "SHORT": "FAQ",
         "LONG": "Frequently Ask Questions"
+    },
+    "_FAQ_ITEMS": {
+        "WHY_ONLINE_CASINO": "Why online casino?",
+        "WHY_ONLINE_CASINO_ANS": "<p>Online casino are very different from physical casinos. When playing online casino games, you are in charge of the games and you can start or end the game at anytime and anywhere.</p><ul class=\"faq-list\"><li>Not be influenced by the people surrounding you.</li><li>Not be affected by loud dings or screams.</li><li>Simple and easy-to-operate interface </li><li>Offers various types of bonus and promotions.</li></ul>",
+        "HOW_TO_PLAY": "How to play?",
+        "HOW_TO_PLAY_ANS": "<p>Only a few easy step to start your games!</p><ul class=\"faq-list\"><li>Click \"Games\" in the website header.</li><li>Browser and select your desired game.</li><li>Open the link to download the game.</li><li>Register and top up your account by following the game instrucions.</li><li>Have fun and good luck playing your games!</li></ul>",
+        "HOW_MANY_AGE_IS_REQUIRED": "How many age is required?",
+        "HOW_MANY_AGE_IS_REQUIRED_ANS": "Customers must be at least 18 years old and above and agree to abide by the terms and conditions imposed.",
+        "WHAT_IS_SUPPORTED_CURRENCIES": "What is the supported currencies?",
+        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "Currently only MYR-Ringgit Malaysia is supported."
     },
     "_CONTACT_US": "Contact Us",
     "_OUR_GAMES": "Our games",
@@ -51,17 +58,30 @@
     "_IOS": "iOS",
     "_ANDROID": "Android",
     "_JOIN_US_NOW": "Join us now",
-    "_FAQ_ITEMS": {
-        "HOW_TO_PLAY": "How to play?",
-        "HOW_TO_PLAY_ANS": "<ul class=\"faq-list\"><li>Click \"Games\" in the website header.</li><li>Browser and choose the desired game.</li><li>Have fun and good luck playing your games!</li></ul>",
-        "HOW_MANY_AGE_IS_REQUIRED": "How many age is required?",
-        "HOW_MANY_AGE_IS_REQUIRED_ANS": "Customers must be at least 18 years old and above and agree to abide by the terms and conditions imposed.",
-        "WHAT_IS_SUPPORTED_CURRENCIES": "What is the supported currencies?",
-        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "Currently only <span class=\"font-weight-bold\">MYR-Ringgit Malaysia</span> is supported."
-    },
     "_LANGUAGE": "Language",
     "_LANGUAGES": {
         "EN": "English",
         "ZH": "简体中文"
-    }
+    },
+    "_FRAGMENT_SECTION": {
+        "DOWNLOAD_AND_SIGNUP": "Download & Signup",
+        "DOWNLOAD_AND_SIGNUP_DESC": "Click on provided link to download our games. Next, register an account to experience the thrill of gambling.",
+        "DEPOSIT_CASH": "Deposit Cash",
+        "DEPOSIT_CASH_DESC": "Top up credit to step into most exciting online casino which provide ultimate games.",
+        "PLAY_AND_ENJOY": "Play & Enjoy",
+        "PLAY_AND_ENJOY_DESC": "You can now play our games and try your hand in a safe and responsible manner!",
+        "ACCESS_ANYTIME_ANYWHERE": "Access Anytime Anywhere",
+        "ACCESS_ANYTIME_ANYWHERE_DESC": "Enjoy the action of online gambling, either sitting on your couch or taking a break at work.",
+        "ENDLESS_GAME_OPTIONS": "Endless Game Options",
+        "ENDLESS_GAME_OPTIONS_DESC": "Try any table or slot game you want, in almost any variety conceivable.",
+        "QUICK_SYSTEM": "Quick System",
+        "QUICK_SYSTEM_DESC": "Fastest payment by our system. Provides the most safe and complete gambling experience.",
+        "HIGHEST_REBATE": "Highest Rebate",
+        "HIGHEST_REBATE_DESC": "Highest daily rebate calculation for all players."
+    },
+    "_BE_IN_CONTROL": "Be In Control",
+    "_HOW_TO_START": "How to Start?",
+    "_PAGE_NOT_FOUND": "Page Not Found",
+    "_PAGE_NOT_FOUND_DESC": "This page might be removed or broken.",
+    "_BACK_TO_HOME": "Back to Home"
 }

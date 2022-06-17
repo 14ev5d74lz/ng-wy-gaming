@@ -13,7 +13,7 @@ import { TranslateModule } from '@ngx-translate/core';
   declarations: [
     AboutUsComponent,
     GamesComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,

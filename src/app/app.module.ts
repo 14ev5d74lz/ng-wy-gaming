@@ -10,17 +10,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PageNotFoundComponent } from './pages/404/404.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
+const APP_COMPONENTS = [
+  HeaderComponent,
+  FooterComponent,
+  PageNotFoundComponent
+]
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
+    ...APP_COMPONENTS
   ],
   imports: [
     BrowserModule,

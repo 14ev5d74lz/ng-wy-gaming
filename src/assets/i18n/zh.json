@@ -1,16 +1,16 @@
 {
     "_ONLINE_CASINO": "线上赌场",
-    "_SLOGAN": "快来！",
-    "_SLOGAN_DESC": "最好玩的游戏尽在这里。",
+    "_SLOGAN": "",
+    "_SLOGAN_DESC": "所有最好的赌场游戏，触手可及！",
     "_ABOUT_COMPANY": "关于{{ companyName }}",
-    "_COMPANY_DESC": "Wy Gaming 成立于 2017. 知名公司.",
-    "_COMPANY_DESC_TWO": "集结超过100,000用户",
+    "_COMPANY_DESC": "致力于提供最好的游戏体验。",
+    "_COMPANY_DESC_TWO": "",
     "_HELP_AND_SUPPORT": "帮助与支持",
     "_PLAY_NOW": "马上游玩",
     "_NO_GAMES_FOUND": "未发现游戏",
     "_GAMES_CATEGORIES": {
         "ALL": "全部",
-        "SLOTS": "转盘",
+        "SLOTS": "老虎机",
         "ROULETTE": "轮盘",
         "BLACK_JACK": "黑杰克",
         "POKER_GAMES": "扑克游戏",
@@ -18,19 +18,26 @@
     },
     "_GAMES": "游戏",
     "_GAME_ITEMS": {
-        "GAME_ONE": "游戏一",
-        "GAME_TWO": "游戏二",
-        "GAME_THREE": "游戏三",
-        "GAME_FOUR": "游戏四"
+        
     },
     "_CATEGORY": "类别",
     "_BROWSE_ALL": "浏览所有",
     "_HOME": "首页",
     "_ABOUT_US": "关于我们",
-    "_ABOUT_US_DESC": "我们是 Wy Gaming.<br />谢谢.",
+    "_ABOUT_US_DESC": "我们的全球人才有助于以同样的热情提供最好的游戏。 我们的在线赌场游戏是我们最受欢迎的游戏之一，深受全球玩家的喜爱。 在线赌场永远不会关闭。 因此，您可以随时在一天或一周的任何时间玩游戏，无需为这个场合精心打扮。",
     "_FAQ": {
         "SHORT": "常见问题",
         "LONG": "常见问题"
+    },
+    "_FAQ_ITEMS": {
+        "WHY_ONLINE_CASINO": "为什么选择线上赌场？",
+        "WHY_ONLINE_CASINO_ANS": "<p>在线赌场与实体赌场有很大不同。 玩在线赌场游戏时，您可以随时随地开始或结束游戏。</p><ul class=\"faq-list\"><li>不受周围人群影响。</li><li>不受嘈杂声或尖叫声的影响。</li><li>简单易操作的界面</li><li>提供各种类型的奖金和促销活动。< /li></ul>",
+        "HOW_TO_PLAY": "怎么玩游戏？",
+        "HOW_TO_PLAY_ANS": "<p>只需几个简单的步骤即可开始您的游戏！</p><ul class=\"faq-list\"><li>点击网站标题中的“游戏”。</li><li>浏览器并选择您想要的游戏。</li><li>打开链接下载游戏。</li><li>按照游戏说明注册并充值您的帐户。</li><li>玩得开心，祝你玩游戏好运！</li></ul>",
+        "HOW_MANY_AGE_IS_REQUIRED": "需要多少岁才能游玩？",
+        "HOW_MANY_AGE_IS_REQUIRED_ANS": "客户必须年满 18 岁并同意遵守所施加的条款和条件。",
+        "WHAT_IS_SUPPORTED_CURRENCIES": "支持的货币是什么？",
+        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "目前只支持MYR-马币。"
     },
     "_CONTACT_US": "联系我们",
     "_OUR_GAMES": "我们的游戏",
@@ -51,17 +58,30 @@
     "_IOS": "苹果",
     "_ANDROID": "安卓",
     "_JOIN_US_NOW": "马上加入我们",
-    "_FAQ_ITEMS": {
-        "HOW_TO_PLAY": "怎么玩游戏？",
-        "HOW_TO_PLAY_ANS": "<ul class=\"faq-list\"><li>点击网站标题中的\"游戏\"。</li><li>浏览并选择喜欢的游戏。</li><li>玩得开心，祝你好运！</li></ul>",
-        "HOW_MANY_AGE_IS_REQUIRED": "需要多少岁才能游玩？",
-        "HOW_MANY_AGE_IS_REQUIRED_ANS": "客户必须年满 18 岁并同意遵守所施加的条款和条件。",
-        "WHAT_IS_SUPPORTED_CURRENCIES": "支持的货币是什么？",
-        "WHAT_IS_SUPPORTED_CURRENCIES_ANS": "目前只支持<span class=\"font-weight-bold\">MYR-马币</span>。"
-    },
     "_LANGUAGE": "语言",
     "_LANGUAGES": {
         "EN": "英语",
         "ZH": "简体中文"
-    }
+    },
+    "_FRAGMENT_SECTION": {
+        "DOWNLOAD_AND_SIGNUP": "下载和注册",
+        "DOWNLOAD_AND_SIGNUP_DESC": "点击链接下载我们的游戏。接下来，注册帐户来体验赌博的快感。",
+        "DEPOSIT_CASH": "存入现金",
+        "DEPOSIT_CASH_DESC": "为您的帐户充值以进入最令人兴奋的的在线赌场和体验各种游戏。",
+        "PLAY_AND_ENJOY": "游玩和享受",
+        "PLAY_AND_ENJOY_DESC": "您现在可以尽情游玩我们的游戏，以安全和负责任的方式！",
+        "ACCESS_ANYTIME_ANYWHERE": "随时随地访问",
+        "ACCESS_ANYTIME_ANYWHERE_DESC": "享受在线赌博的乐趣，无论是坐在沙发上还是在工作中休息。",
+        "ENDLESS_GAME_OPTIONS": "无尽的游戏选项",
+        "ENDLESS_GAME_OPTIONS_DESC": "尝试任何你想要的桌面或老虎机游戏，几乎可以想象到的任何种类。",
+        "QUICK_SYSTEM": "快速系统",
+        "QUICK_SYSTEM_DESC": "我们系统最快的支付方式。提供最安全和完整的赌博体验。",
+        "HIGHEST_REBATE": "最高回扣",
+        "HIGHEST_REBATE_DESC": "为所有玩家提供最高每日返利计算。"
+    },
+    "_BE_IN_CONTROL": "尽在掌控",
+    "_HOW_TO_START": "如何开始？",
+    "_PAGE_NOT_FOUND": "找不到页面",
+    "_PAGE_NOT_FOUND_DESC": "此页面可能被删除或损坏。",
+    "_BACK_TO_HOME": "返回首页"
 }
